@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+   
+    justify-content: center;
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    
+}
+     
+
+
+/* header */
+.main{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    
+}
+
+
+.header {
+    background-color: #e745cc;
+    text-align: center;
+    padding: 30px;
+}
+
+.column {
+    float: left;
+    padding: 20px;
+    width: 40px;
+    justify-content: left;
+  }
+
+  .column .aside{
+    width: 25%;
+
+  }
+
+  .foot {
+        background-color: #e745cc;
+        text-align: center;
+        padding: 30px;
+  }
+
+
